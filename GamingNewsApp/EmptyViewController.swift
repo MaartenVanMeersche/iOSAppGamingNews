@@ -1,9 +1,8 @@
-//
-//  EmptyViewController.swift
-//  GamingNewsApp
-//
-//  Created by Maarten Van Meersche on 5/01/17.
-//  Copyright © 2017 Maarten Van Meersche. All rights reserved.
-//
+import UIKit
 
-import Foundation
+class EmptyViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        navigationItem.leftBarButtonItem = splitViewController!.displayModeButtonItem
+    }
+}

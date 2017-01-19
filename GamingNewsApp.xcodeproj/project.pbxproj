@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF805D9519EBC0E289B08452 /* Pods_GamingNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674AB85D22710D9CC073398D /* Pods_GamingNewsApp.framework */; };
+		B46AEBFA1E2FC86B00A26995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46AEBF91E2FC86A00A26995 /* Assets.xcassets */; };
+		B46C7EFB1E1E6D63001B56F0 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7EFA1E1E6D63001B56F0 /* Comment.swift */; };
+		B46C7EFE1E1E74CC001B56F0 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7EFD1E1E74CC001B56F0 /* PostsViewController.swift */; };
+		B46C7F001E1E74EF001B56F0 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7EFF1E1E74EF001B56F0 /* EmptyViewController.swift */; };
+		B46C7F021E1E7593001B56F0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C7F011E1E7593001B56F0 /* PostViewController.swift */; };
 		B4E239561E1E65C500D8F66B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E239551E1E65C500D8F66B /* AppDelegate.swift */; };
 		B4E239581E1E65C500D8F66B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E239571E1E65C500D8F66B /* MasterViewController.swift */; };
 		B4E2395A1E1E65C500D8F66B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E239591E1E65C500D8F66B /* DetailViewController.swift */; };
 		B4E2395D1E1E65C500D8F66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E2395B1E1E65C500D8F66B /* Main.storyboard */; };
-		B4E2395F1E1E65C500D8F66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E2395E1E1E65C500D8F66B /* Assets.xcassets */; };
 		B4E239621E1E65C500D8F66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E239601E1E65C500D8F66B /* LaunchScreen.storyboard */; };
 		B4E2396D1E1E65C500D8F66B /* GamingNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E2396C1E1E65C500D8F66B /* GamingNewsAppTests.swift */; };
 		B4E239781E1E65C500D8F66B /* GamingNewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E239771E1E65C500D8F66B /* GamingNewsAppUITests.swift */; };
+		B4E239891E1E67AD00D8F66B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E239881E1E67AD00D8F66B /* Post.swift */; };
+		B4E2398D1E1E6AA900D8F66B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E2398C1E1E6AA900D8F66B /* Service.swift */; };
+		B4E2398F1E1E6AB600D8F66B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E2398E1E1E6AB600D8F66B /* Result.swift */; };
+		B4E239911E1E6CA400D8F66B /* Properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4E239901E1E6CA400D8F66B /* Properties.plist */; };
+		B4F06A7F1E30CECA0036339C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F06A7E1E30CECA0036339C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04954F405AD36B3BF9B806E8 /* Pods-GamingNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamingNewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GamingNewsApp/Pods-GamingNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		674AB85D22710D9CC073398D /* Pods_GamingNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamingNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		980C4AB1E1C97FBE8937CF53 /* Pods-GamingNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamingNewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GamingNewsApp/Pods-GamingNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B43C4C621E1E7B3300A49D04 /* GamingNewsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GamingNewsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		B46AEBF91E2FC86A00A26995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46C7EFA1E1E6D63001B56F0 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		B46C7EFD1E1E74CC001B56F0 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		B46C7EFF1E1E74EF001B56F0 /* EmptyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		B46C7F011E1E7593001B56F0 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		B4E239521E1E65C500D8F66B /* GamingNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamingNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E239551E1E65C500D8F66B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4E239571E1E65C500D8F66B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		B4E239591E1E65C500D8F66B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B4E2395C1E1E65C500D8F66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B4E2395E1E1E65C500D8F66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4E239611E1E65C500D8F66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4E239631E1E65C500D8F66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4E239681E1E65C500D8F66B /* GamingNewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamingNewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +67,11 @@
 		B4E239731E1E65C500D8F66B /* GamingNewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamingNewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E239771E1E65C500D8F66B /* GamingNewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingNewsAppUITests.swift; sourceTree = "<group>"; };
 		B4E239791E1E65C500D8F66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E239881E1E67AD00D8F66B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B4E2398C1E1E6AA900D8F66B /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B4E2398E1E1E6AB600D8F66B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		B4E239901E1E6CA400D8F66B /* Properties.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Properties.plist; sourceTree = "<group>"; };
+		B4F06A7E1E30CECA0036339C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF805D9519EBC0E289B08452 /* Pods_GamingNewsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C3E02DB4AE3C523C091308F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				674AB85D22710D9CC073398D /* Pods_GamingNewsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B46C7EFC1E1E74B5001B56F0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B46C7EFD1E1E74CC001B56F0 /* PostsViewController.swift */,
+				B46C7EFF1E1E74EF001B56F0 /* EmptyViewController.swift */,
+				B46C7F011E1E7593001B56F0 /* PostViewController.swift */,
+				B4F06A7E1E30CECA0036339C /* SettingsViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		B4E239491E1E65C500D8F66B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				B4E2396B1E1E65C500D8F66B /* GamingNewsAppTests */,
 				B4E239761E1E65C500D8F66B /* GamingNewsAppUITests */,
 				B4E239531E1E65C500D8F66B /* Products */,
+				DB2D5974FBED6F872ED1EA71 /* Pods */,
+				6C3E02DB4AE3C523C091308F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +144,18 @@
 		B4E239541E1E65C500D8F66B /* GamingNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				B46C7EFC1E1E74B5001B56F0 /* ViewController */,
+				B4E2398B1E1E6A9000D8F66B /* Service */,
+				B4E2398A1E1E68C200D8F66B /* Model */,
 				B4E239551E1E65C500D8F66B /* AppDelegate.swift */,
+				B46AEBF91E2FC86A00A26995 /* Assets.xcassets */,
 				B4E239571E1E65C500D8F66B /* MasterViewController.swift */,
 				B4E239591E1E65C500D8F66B /* DetailViewController.swift */,
 				B4E2395B1E1E65C500D8F66B /* Main.storyboard */,
-				B4E2395E1E1E65C500D8F66B /* Assets.xcassets */,
 				B4E239601E1E65C500D8F66B /* LaunchScreen.storyboard */,
 				B4E239631E1E65C500D8F66B /* Info.plist */,
+				B4E239901E1E6CA400D8F66B /* Properties.plist */,
+				B43C4C621E1E7B3300A49D04 /* GamingNewsApp-Bridging-Header.h */,
 			);
 			path = GamingNewsApp;
 			sourceTree = "<group>";
@@ -128,6 +178,33 @@
 			path = GamingNewsAppUITests;
 			sourceTree = "<group>";
 		};
+		B4E2398A1E1E68C200D8F66B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4E239881E1E67AD00D8F66B /* Post.swift */,
+				B46C7EFA1E1E6D63001B56F0 /* Comment.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B4E2398B1E1E6A9000D8F66B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B4E2398C1E1E6AA900D8F66B /* Service.swift */,
+				B4E2398E1E1E6AB600D8F66B /* Result.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		DB2D5974FBED6F872ED1EA71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				980C4AB1E1C97FBE8937CF53 /* Pods-GamingNewsApp.debug.xcconfig */,
+				04954F405AD36B3BF9B806E8 /* Pods-GamingNewsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4E2397C1E1E65C500D8F66B /* Build configuration list for PBXNativeTarget "GamingNewsApp" */;
 			buildPhases = (
+				F5DFC972432A6CD1D922C094 /* [CP] Check Pods Manifest.lock */,
 				B4E2394E1E1E65C500D8F66B /* Sources */,
 				B4E2394F1E1E65C500D8F66B /* Frameworks */,
 				B4E239501E1E65C500D8F66B /* Resources */,
+				5E4D82DF09DD4FDBD9B39A56 /* [CP] Embed Pods Frameworks */,
+				78CF85E6DD64668DE614CE46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +276,7 @@
 				TargetAttributes = {
 					B4E239511E1E65C500D8F66B = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					B4E239671E1E65C500D8F66B = {
@@ -236,8 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4E239621E1E65C500D8F66B /* LaunchScreen.storyboard in Resources */,
-				B4E2395F1E1E65C500D8F66B /* Assets.xcassets in Resources */,
 				B4E2395D1E1E65C500D8F66B /* Main.storyboard in Resources */,
+				B46AEBFA1E2FC86B00A26995 /* Assets.xcassets in Resources */,
+				B4E239911E1E6CA400D8F66B /* Properties.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +339,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E4D82DF09DD4FDBD9B39A56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GamingNewsApp/Pods-GamingNewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CF85E6DD64668DE614CE46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GamingNewsApp/Pods-GamingNewsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DFC972432A6CD1D922C094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4E2394E1E1E65C500D8F66B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E2398F1E1E6AB600D8F66B /* Result.swift in Sources */,
 				B4E2395A1E1E65C500D8F66B /* DetailViewController.swift in Sources */,
+				B4F06A7F1E30CECA0036339C /* SettingsViewController.swift in Sources */,
 				B4E239581E1E65C500D8F66B /* MasterViewController.swift in Sources */,
+				B46C7EFB1E1E6D63001B56F0 /* Comment.swift in Sources */,
+				B46C7F021E1E7593001B56F0 /* PostViewController.swift in Sources */,
+				B46C7EFE1E1E74CC001B56F0 /* PostsViewController.swift in Sources */,
+				B4E2398D1E1E6AA900D8F66B /* Service.swift in Sources */,
+				B46C7F001E1E74EF001B56F0 /* EmptyViewController.swift in Sources */,
 				B4E239561E1E65C500D8F66B /* AppDelegate.swift in Sources */,
+				B4E239891E1E67AD00D8F66B /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,24 +552,33 @@
 		};
 		B4E2397D1E1E65C500D8F66B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980C4AB1E1C97FBE8937CF53 /* Pods-GamingNewsApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GamingNewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = maartenvanmeersche.GamingNewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GamingNewsApp/GamingNewsApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		B4E2397E1E1E65C500D8F66B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04954F405AD36B3BF9B806E8 /* Pods-GamingNewsApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GamingNewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = maartenvanmeersche.GamingNewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GamingNewsApp/GamingNewsApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +656,7 @@
 				B4E2397E1E1E65C500D8F66B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4E2397F1E1E65C500D8F66B /* Build configuration list for PBXNativeTarget "GamingNewsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +665,7 @@
 				B4E239811E1E65C500D8F66B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4E239821E1E65C500D8F66B /* Build configuration list for PBXNativeTarget "GamingNewsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +674,7 @@
 				B4E239841E1E65C500D8F66B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
